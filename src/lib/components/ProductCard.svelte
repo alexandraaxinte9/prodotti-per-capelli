@@ -1,11 +1,12 @@
 <script lang="ts">
+	import { base } from '$app/paths';
 	import type { Product } from '$lib/data/products';
 	import { formatPrice } from '$lib/data/products';
 
 	let { product }: { product: Product } = $props();
 </script>
 
-<a href="/prodotti/{product.slug}" class="card">
+<a href="{base}/prodotti/{product.slug}/" class="card">
 	<div class="image-wrap">
 		<img src={product.image} alt={product.name} loading="lazy" />
 		<span class="category">{product.category}</span>

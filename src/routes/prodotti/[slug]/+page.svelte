@@ -1,4 +1,5 @@
 <script lang="ts">
+	import { base } from '$app/paths';
 	import { formatPrice } from '$lib/data/products';
 	import type { PageData } from './$types';
 
@@ -17,7 +18,7 @@
 		</div>
 
 		<div class="details">
-			<a href="/prodotti" class="back-link">&larr; Torna alla collezione</a>
+			<a href="{base}/prodotti/" class="back-link">&larr; Torna alla collezione</a>
 
 			<p class="section-label">{data.product.category}</p>
 			<h1 class="product-name">{data.product.name}</h1>

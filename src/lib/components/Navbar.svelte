@@ -1,23 +1,25 @@
 <script lang="ts">
+	import { base } from '$app/paths';
 	import { page } from '$app/stores';
 
 	const links = [
-		{ href: '/', label: 'Home' },
-		{ href: '/prodotti', label: 'Collezione' },
-		{ href: '/chi-siamo', label: 'Chi siamo' }
+		{ href: `${base}/`, label: 'Home' },
+		{ href: `${base}/prodotti/`, label: 'Collezione' },
+		{ href: `${base}/chi-siamo/`, label: 'Chi siamo' }
 	];
 
 	let menuOpen = $state(false);
 
 	function isActive(href: string, pathname: string): boolean {
-		if (href === '/') return pathname === '/';
-		return pathname.startsWith(href);
+		const home = `${base}/`;
+		if (href === home) return pathname === home || pathname === base;
+		return pathname.startsWith(href.replace(/\/$/, ''));
 	}
 </script>
 
 <header class="navbar">
 	<div class="container navbar-inner">
-		<a href="/" class="logo">
+		<a href="{base}/" class="logo">
 			<span class="logo-mark">SÈVE</span>
 			<span class="logo-sub">Capelli</span>
 		</a>

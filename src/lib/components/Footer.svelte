@@ -1,3 +1,7 @@
+<script lang="ts">
+	import { base } from '$app/paths';
+</script>
+
 <footer class="footer">
 	<div class="container footer-inner">
 		<div class="brand">
@@ -8,9 +12,9 @@
 		<div class="links">
 			<div class="col">
 				<h4>Navigazione</h4>
-				<a href="/">Home</a>
-				<a href="/prodotti">Collezione</a>
-				<a href="/chi-siamo">Chi siamo</a>
+				<a href="{base}/">Home</a>
+				<a href="{base}/prodotti/">Collezione</a>
+				<a href="{base}/chi-siamo/">Chi siamo</a>
 			</div>
 			<div class="col">
 				<h4>Contatti</h4>

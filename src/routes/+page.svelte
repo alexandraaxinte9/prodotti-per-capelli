@@ -1,4 +1,5 @@
 <script lang="ts">
+	import { base } from '$app/paths';
 	import ProductCard from '$lib/components/ProductCard.svelte';
 	import { products } from '$lib/data/products';
 
@@ -18,8 +19,8 @@
 				capello con eleganza e cura.
 			</p>
 			<div class="hero-actions">
-				<a href="/prodotti" class="btn btn-primary">Scopri la collezione</a>
-				<a href="/chi-siamo" class="btn btn-outline">La nostra storia</a>
+				<a href="{base}/prodotti/" class="btn btn-primary">Scopri la collezione</a>
+				<a href="{base}/chi-siamo/" class="btn btn-outline">La nostra storia</a>
 			</div>
 		</div>
 		<div class="hero-visual">
@@ -44,7 +45,7 @@
 			{/each}
 		</div>
 		<div class="featured-cta">
-			<a href="/prodotti" class="btn btn-outline">Vedi tutti i prodotti</a>
+			<a href="{base}/prodotti/" class="btn btn-outline">Vedi tutti i prodotti</a>
 		</div>
 	</div>
 </section>
