@@ -9,10 +9,10 @@
 
 <svelte:head>
 	<link rel="icon" href={favicon} />
-	<title>SÈVE Capelli — Cura capillare di lusso</title>
+	<title>HAIR — Cura capillare di lusso</title>
 	<meta
 		name="description"
-		content="Scopri la collezione SÈVE: prodotti per capelli formulati con ingredienti pregiati per una cura capillare di lusso."
+		content="Scopri la collezione HAIR: prodotti per capelli formulati con ingredienti pregiati per una cura capillare di lusso."
 	/>
 </svelte:head>
 

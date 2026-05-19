@@ -7,7 +7,7 @@
 </script>
 
 <svelte:head>
-	<title>{data.product.name} — SÈVE Capelli</title>
+	<title>{data.product.name} — HAIR</title>
 	<meta name="description" content={data.product.description} />
 </svelte:head>
 

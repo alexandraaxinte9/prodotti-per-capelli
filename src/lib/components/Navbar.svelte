@@ -20,8 +20,7 @@
 <header class="navbar">
 	<div class="container navbar-inner">
 		<a href="{base}/" class="logo">
-			<span class="logo-mark">SÈVE</span>
-			<span class="logo-sub">Capelli</span>
+			<span class="logo-mark">HAIR</span>
 		</a>
 
 		<nav class="nav-links" class:open={menuOpen}>
@@ -78,15 +77,6 @@
 		font-size: 1.5rem;
 		font-weight: 500;
 		letter-spacing: 0.15em;
-	}
-
-	.logo-sub {
-		font-size: 0.6rem;
-		font-weight: 400;
-		letter-spacing: 0.35em;
-		text-transform: uppercase;
-		color: var(--color-text-muted);
-		margin-top: 2px;
 	}
 
 	.nav-links {

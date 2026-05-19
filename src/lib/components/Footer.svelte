@@ -5,7 +5,7 @@
 <footer class="footer">
 	<div class="container footer-inner">
 		<div class="brand">
-			<span class="logo-mark">SÈVE</span>
+			<span class="logo-mark">HAIR</span>
 			<p class="tagline">Cura capillare di lusso, formulata con ingredienti selezionati.</p>
 		</div>
 
@@ -18,7 +18,7 @@
 			</div>
 			<div class="col">
 				<h4>Contatti</h4>
-				<span>info@seve-capelli.it</span>
+				<span>info@hair.it</span>
 				<span>+39 02 1234 5678</span>
 				<span>Milano, Italia</span>
 			</div>
@@ -26,7 +26,7 @@
 	</div>
 
 	<div class="container copyright">
-		<p>&copy; {new Date().getFullYear()} SÈVE Capelli. Tutti i diritti riservati.</p>
+		<p>&copy; {new Date().getFullYear()} HAIR. Tutti i diritti riservati.</p>
 	</div>
 </footer>
 

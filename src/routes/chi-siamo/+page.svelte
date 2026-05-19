@@ -6,7 +6,7 @@
 				<h1 class="section-title">Nati dalla passione per la cura autentica</h1>
 				<div class="text">
 					<p>
-						SÈVE nasce a Milano nel 2020 da un'idea semplice: creare prodotti per capelli che
+						HAIR nasce a Milano nel 2020 da un'idea semplice: creare prodotti per capelli che
 						uniscano efficacia scientifica e purezza botanica, senza compromessi.
 					</p>
 					<p>
@@ -15,7 +15,7 @@
 					</p>
 					<p>
 						Crediamo che i capelli sani siano il riflesso di un equilibrio interiore. Per questo
-						ogni prodotto SÈVE è pensato come un rituale di cura — un momento per sé, lento e
+						ogni prodotto HAIR è pensato come un rituale di cura — un momento per sé, lento e
 						consapevole.
 					</p>
 				</div>
@@ -23,7 +23,7 @@
 			<div class="about-image">
 				<img
 					src="https://images.unsplash.com/photo-1560066984-138dadb4c035?w=700&h=900&fit=crop&q=80"
-					alt="Laboratorio SÈVE"
+					alt="Laboratorio HAIR"
 				/>
 			</div>
 		</div>
@@ -51,7 +51,7 @@
 </section>
 
 <svelte:head>
-	<title>Chi siamo — SÈVE Capelli</title>
+	<title>Chi siamo — HAIR</title>
 </svelte:head>
 
 <style>

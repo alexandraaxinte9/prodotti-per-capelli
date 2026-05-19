@@ -4,7 +4,7 @@
 </script>
 
 <svelte:head>
-	<title>Collezione — SÈVE Capelli</title>
+	<title>Collezione — HAIR</title>
 </svelte:head>
 
 <section class="page-header">
